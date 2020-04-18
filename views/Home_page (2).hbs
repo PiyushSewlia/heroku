@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>
+            home page
+            <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        </title>
+    </head>
+    <body>
+        <div class="container">
+        {{>header1}}
+   <center> <h1>HOME PAGE</h1>
+
+<div class="container">
+		<div class="row">
+				<div class="col-md-12"><br><br><br><br><h1></h1></div> 
+				<br>
+				<div class="col-md-4"><img src="https://www.sodapdf.com/blog/wp-content/uploads/2019/01/blog-best-tech-websites-1024x480.jpg" class="rounded-circle" width="200" height="200"></div>
+                <div class="col-md-8">
+                	<br><br><br>
+                	 <table class="table">
+                	<tr>
+                		<th>Tech name</th>
+                		<th>ECO</th>
+                		<th>workes</th>
+                		</tr>
+                		<tr>
+                			<td>{{plansolution}}</td>
+                			<td>{{node}}</td>
+                			<td>{{workes}}</td>
+                		</tr>
+                </table>
+            </div>
+		</div>
+	</div>
+	
+
+        {{>footer}}
+        </center>
+        </div>
+    </body>
+</html>
